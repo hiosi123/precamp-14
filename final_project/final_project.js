@@ -56,7 +56,7 @@ finshedBtn = () => {
 }
 
 function validation() {
-    if (document.getElementById().toString().includes('@') === false) {
+    if (document.getElementById('body__box1').innerText.toString().includes('@') === false) {
         return ('이메일 주소를 다시 확인해 주세요')
     }
     if (password.length <8 || password.length >16) {
