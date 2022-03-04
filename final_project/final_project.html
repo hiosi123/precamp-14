@@ -16,13 +16,13 @@
             <div class="wrapper__body">
                 <div class="wrapper__body__boxes">
                     <input id="body__box1" type="text" class="body__box" placeholder="이메일을 입력해주세요">
-                    <div class="body__box__warning"></div>
+                    <div id ="box1__warning" class="body__box__warning"></div>
                     <input id="body__box2" type="text" class="body__box" placeholder="이름을 입력해주세요">
-                    <div class="body__box__warning"></div>
-                    <input id="body__box3" type="text" class="body__box" placeholder="비밀번호를 입력해주세요">
-                    <div class="body__box__warning"></div>
-                    <input id="body__box4" type="text" class="body__box" placeholder="비밀번호를 다시 입력해주세요">
-                    <div class="body__box__warning"></div>
+                    <div id ="box2__warning" class="body__box__warning"></div>
+                    <input id="body__box3" type="password" class="body__box" placeholder="비밀번호를 입력해주세요">
+                    <div id ="box3__warning" class="body__box__warning"></div>
+                    <input id="body__box4" type="password" class="body__box" placeholder="비밀번호를 다시 입력해주세요">
+                    <div id ="box4__warning"class="body__box__warning"></div>
                 </div>
 
                 <div class="wrapper__body__numbers">
@@ -44,7 +44,7 @@
                 
                 <div class="wrapper__body__selection">
                     <select class="select">
-                        <option disabled="true">지역을 선택하세요</option>
+                        <option selected = true disabled="true">지역을 선택하세요</option>
                         <option>서울</option>
                         <option>인천</option>
                         <option>경기</option>
@@ -60,7 +60,7 @@
             <div class="wrapper__footer">
                 <div class="line"></div>
                 <div>
-                    <button class="button">가입하기</button>
+                    <button class="button" onclick="validation()">가입하기</button>
                 </div>
                 
             </div>

@@ -98,30 +98,43 @@
     padding-top:20px;
     display:flex;
     flex-direction: row;
+    align-items: center;
 }
 .auth__numbers {
+    color:#0068FF;
     padding-right: 20px;
 }
 .auth__button{
     
     width:120px;
-    height:24px;
+    height:40px;
+    font-size:15px;
+    color:#0068FF;
+    background-color: white;
+    border-radius: 10px;
 
 }
 
 .auth2 {
+    
     padding-top:20px;
     display:flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .auth__time {
+    color:#0068FF;
     padding-right:20px;
 }
 
 .auth__finished {
     width:120px;
-    height:24px;
+    height:40px;
+    font-size:15px;
+    color:#0068FF;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .wrapper__body__selection{
@@ -154,12 +167,21 @@
 }
 
 .line {
-
-    border-top:1px solid black;
+    border-top: 1px solid black;
+    height:10px;
+    width: 400px;
 }
 .button {
     font-size: 18px;
     font-weight:400;
     width:380px;
     height:75px;
+    color:#0068FF;
+    background-color:white;
+    border-radius: 10px;
+}
+
+.body__box__warning {
+    color:red;
+    font-size:12px;
 }
