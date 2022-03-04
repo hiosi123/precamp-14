@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+    <title>코드캠프 회원가입</title>
+    <script src="./final_project.js"></script>
+    <link href="./final_project.css" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <div class="wrapper">
+            <div class="wrapper__top">
+                <div class="wrapper__top__title">코드캠프 회원가입</div>
+            </div>
+
+            <div class="wrapper__body">
+                <div class="wrapper__body__boxes">
+                    <input type="text" class="body__box" placeholder="이메일을 입력해주세요">
+                    <div class="body__box__warning"></div>
+                    <input type="text" class="body__box">
+                    <div class="body__box__warning"></div>
+                    <input type="text" class="body__box">
+                    <div class="body__box__warning"></div>
+                    <input type="text" class="body__box">
+                    <div class="body__box__warning"></div>
+                </div>
+
+                <div class="wrapper__body__numbers">
+                    <input class=phoneBox id="phone1" oninput="changeFocus1()" type="text" maxlength="3"> -
+                    <input class=phoneBox id="phone2" oninput="changeFocus2()" type="text" maxlength="4"> -
+                    <input class=phoneBox id="phone3">
+                </div>
+
+                <div class="wrapper__body__auth">
+                    <div class="auth1">
+                        <div id="auth__numbers" class="auth__numbers">000000</div>
+                        <button onclick="pressedBtn()" id="auth__button" class="auth__button" >인증번호 전송</button>
+                    </div>
+                    <div class="auth2">
+                        <div id="auth__time" class="auth__time">00:00</div>
+                        <button onclick="finshedBtn()" id="auth__finished" class="auth__finished">인증 완료</button>
+                    </div>
+                </div>
+                
+                <div class="wrapper__body__selection">
+                    <select class="select">
+                        <option disabled="true">지역을 선택하세요</option>
+                        <option>서울</option>
+                        <option>인천</option>
+                        <option>경기</option>
+                    </select>
+                </div>
+
+                <div class="wrapper__body__radio">
+                    <input type="radio" name="gender">여성
+                    <input type="radio" name="gender">남성
+                </div>
+            </div>
+
+            <div class="wrapper__footer">
+                <div class="line"></div>
+                <div>
+                    <button class="button">가입하기</button>
+                </div>
+                
+            </div>
+            
+        </div>
+            
+    </div>
+
+</body>
+</html>
