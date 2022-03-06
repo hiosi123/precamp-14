@@ -28,13 +28,13 @@
                 <div class="wrapper__body__numbers">
                     <input class=phoneBox id="phone1" oninput="changeFocus1()" type="text" maxlength="3"> -
                     <input class=phoneBox id="phone2" oninput="changeFocus2()" type="text" maxlength="4"> -
-                    <input class=phoneBox id="phone3">
+                    <input class=phoneBox id="phone3" onchange="authButton()" onkeyup="onchange()" type="text" maxlength="4">
                 </div>
 
                 <div class="wrapper__body__auth">
                     <div class="auth1">
                         <div id="auth__numbers" class="auth__numbers">000000</div>
-                        <button onclick="pressedBtn()" id="auth__button" class="auth__button" >인증번호 전송</button>
+                        <button onclick="pressedBtn()" id="auth__button" class="auth__button" disabled="true" >인증번호 전송</button>
                     </div>
                     <div class="auth2">
                         <div id="auth__time" class="auth__time">00:00</div>

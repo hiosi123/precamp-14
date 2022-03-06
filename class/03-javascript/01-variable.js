@@ -16,7 +16,7 @@ console.log(myMoney);
 
 //"13" + 2 // 132
 const classmates = ['철수', '영희','훈이']
-undefined
+// undefined
 classmates
 // (3) ['철수', '영희', '훈이']
 classmates[0]

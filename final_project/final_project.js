@@ -15,8 +15,19 @@ function changeFocus2() {
     }
 }
 
-let isStarted = false;
 
+
+
+
+function authButton() {
+    let $phone3 = document.getElementById('phone3').value
+   
+    if ($phone3.length===4) {
+        document.getElementById('auth__button').disabled= false;
+    }
+
+}
+let isStarted = false;
 pressedBtn = () => {
    
     if (isStarted === true) {

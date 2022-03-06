@@ -1,61 +1,61 @@
 const email='codecamp@gmail.com'
 undefined
 email
-'codecamp@gmail.com'
+// 'codecamp@gmail.com'
 email.includes('@');
-true
+// true
 email.split('@');
-(2) ['codecamp', 'gmail.com']
+// (2) ['codecamp', 'gmail.com']
 email.split('@')[0]
-'codecamp'
+// 'codecamp'
 email.split('@')[1]
-'gmail.com'
+// 'gmail.com'
 const userMail = email.split('@')[0]
-undefined
+// undefined
 const userMail = email.split('@')[0]
-undefined
+// undefined
 const compay = email.split('@')[1]
-undefined
+// undefined
 compay
-'gmail.com'
+// 'gmail.com'
 email.split('@', 1)
-['codecamp']
+// ['codecamp']
 email
-'codecamp@gmail.com'
+// 'codecamp@gmail.com'
 const maskingMail=[]
-undefined
+// undefined
 userMail[0]
-'c'
+// 'c'
 maskingMail
-[]
+// []
 maskingMail.push(userMaile[0])
 
 maskingMail.push(userMail[0])
-1
+// 1
 maskingMail.push(userMail[1])
-2
+// 2
 maskingMail.push(userMail[2])
-3
+// 3
 maskingMail
-(3) ['c', 'o', 'd']
+// (3) ['c', 'o', 'd']
 maskingMail.push(userMail[3])
-4
+// 4
 maskingMail.push('*')
-5
+// 5
 maskingMail.push('*')
-6
+// 6
 maskingMail.push('*')
-7
+// 7
 maskingMail.push('*')
-8
+// 8
 maskingMail
-(8) ['c', 'o', 'd', 'e', '*', '*', '*', '*']
+// (8) ['c', 'o', 'd', 'e', '*', '*', '*', '*']
 maskingMail
-(8) ['c', 'o', 'd', 'e', '*', '*', '*', '*']
+// (8) ['c', 'o', 'd', 'e', '*', '*', '*', '*']
 maskingMail.join('@')
-'c@o@d@e@*@*@*@*'
+// 'c@o@d@e@*@*@*@*'
 maskingMail.join('')
-'code****'
+// 'code****'
 maskingMail.join('') + '@' +company
 
 
