@@ -59,3 +59,5 @@ let arr3 =[...arr2, ...arr1]
 // undefined
 arr3
 // (6) [4, 5, 6, 1, 2, 3]
+
+console.log('hi')
