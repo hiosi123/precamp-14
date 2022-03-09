@@ -26,7 +26,7 @@ function User(name, age, ...skills) { // 나머지 매개변수는 항상 마지
     this.skills = skills;
 }
 
-const user2 = new User('Tom', 20, 'JS', 'React');
+const user3 = new User('Tom', 20, 'JS', 'React');
 // undefined
 
 // User {name: 'Tom', age: 20, skills: Array(2)}
